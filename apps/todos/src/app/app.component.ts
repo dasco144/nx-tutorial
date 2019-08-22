@@ -1,9 +1,6 @@
-import { Component } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-
-interface Todo {
-    title: string;
-}
+import { Component } from '@angular/core';
+import { Todo } from '@myorg/data';
 
 @Component({
     selector: 'myorg-root',
@@ -22,7 +19,7 @@ export class AppComponent {
     }
 
     addTodo() {
-        this.http.post('/api/addTodo', {}).subscribe(() => {
+        this.http.post('/api/todos', {}).subscribe(() => {
             this.fetch();
         });
     }
