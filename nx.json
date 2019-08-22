@@ -1,21 +1,21 @@
 {
-  "npmScope": "myorg",
-  "implicitDependencies": {
-    "angular.json": "*",
-    "package.json": "*",
-    "tsconfig.json": "*",
-    "tslint.json": "*",
-    "nx.json": "*"
-  },
-  "projects": {
-    "todos-e2e": {
-      "tags": []
+    "npmScope": "myorg",
+    "implicitDependencies": {
+        "angular.json": "*",
+        "package.json": "*",
+        "tsconfig.json": "*",
+        "tslint.json": "*",
+        "nx.json": "*"
     },
-    "todos": {
-      "tags": []
-    },
-    "apps-api": {
-      "tags": []
+    "projects": {
+        "todos-e2e": {
+            "tags": []
+        },
+        "todos": {
+            "tags": []
+        },
+        "api": {
+            "tags": []
+        }
     }
-  }
 }
